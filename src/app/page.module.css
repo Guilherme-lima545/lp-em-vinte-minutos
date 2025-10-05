@@ -1,0 +1,73 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.container h1 {
+  font-size: 50px;
+  font-family: var(--font-poppins);
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+
+
+.container p {
+  font-size: 19px;
+  font-family: var(--font-inter);
+  padding: 2%;
+}
+
+.page .imagem {
+  width: 70%;
+  height: auto;
+  position: relative;
+  right: 5%;
+  left: 30%;
+  top: 10%;
+  z-index: 2;
+}
+
+.container button {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #007BFF;
+  border-color: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 2%;
+}
+
+.page .aside {
+  width: 100%;
+  background-color: #007BFF;
+  clip-path: ellipse(60% 70% at 80% 10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

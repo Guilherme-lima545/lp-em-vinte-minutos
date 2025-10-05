@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  padding: 2%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul li {
+  display: inline;
+  font-family: var(--font-inter);
+  padding-left: 15px;
+}
+
+.navbar .logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  padding-right: 65%;
+  font-size: 25px;
+}
+
+.navbar ul .circulo {
+  background: #007BFF;
+  clip-path: circle(30%);
+}
